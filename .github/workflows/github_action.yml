@@ -8,10 +8,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: DNS
+    environment: DND
 
     env:
-      DNS: ${{ vars.DNS }}
+      DND: ${{ vars.DND }}
       BLOCK: ${{ vars.BLOCK }}
       REDIRECT: ${{ vars.REDIRECT }}
 
